@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #F0F2F5;
+    height: 100vh;
+}
+.left{
+    width: 50%;
+    float: left;
+    height: 100vh;
+}
+.right{
+    width: 50%;
+    float: right;
+    height: 100vh;
+}
+
+/* Left CSS */
+.logo{
+    width: 290px;
+    margin-top: 200px;
+    margin-left: 120px;
+}
+.text{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    margin-top: -15px;
+}
+
+/* Right CSS */
+.login{
+    background-color: white;
+    box-shadow: 6px 6px 6px -6px grey;
+    width: 370px;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 130px;
+    margin-left: 50px;
+}
+.inp{
+    width: 88%;
+    border: 1px solid #DDDFE2;
+    border-radius: 8px;
+    height: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    width: 100%;
+    background-color: #1877F2;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 17px;
+}
+.forget{
+    color: #18A1F6;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.line{
+    background-color: #DADDE1;
+    height: 1px;
+    border: none;
+    margin-top: 25px;
+}
+button{
+    width: 55%;
+    background-color: #42B72A;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 17px;
+    margin-top: 25px;
+}
+.create{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-left: 105px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .left{
+        width: 100%;
+        text-align: center;
+    }
+    .right{
+        width: 100%;
+        text-align: center;
+    }
+    .logo{
+        align-items: center;
+        margin: 0px;
+        margin-top: 20px;
+    }
+    .text{
+        align-items: center;
+        margin: 0px;
+    }
+    .login{
+        margin: 0px;
+        margin-top: -200px;
+        margin-left: 250px;
+    }
+}
